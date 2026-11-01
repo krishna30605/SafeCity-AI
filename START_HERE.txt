@@ -1,0 +1,22 @@
+SAFECITY AI - UPDATE FOR YOUR EXISTING PROJECT  ("SafeCity AI" folder)
+
+WHAT TO COPY (replace when asked)
+  client/src/App.jsx        ->  SafeCity AI/client/src/App.jsx
+  client/src/App.css        ->  SafeCity AI/client/src/App.css
+  client/src/index.css      ->  SafeCity AI/client/src/index.css
+  client/public/*           ->  SafeCity AI/client/public/   (logo.png, hero.png, robot.png, avatars/)
+  server/server.js          ->  SafeCity AI/server/server.js
+
+DELETE (duplicate, not needed):  SafeCity AI/client/server   (whole folder)
+
+NO new npm packages are needed.
+
+RUN
+  Terminal 1:  cd "SafeCity AI/client"   then  npm run dev        (http://localhost:5173)
+  Terminal 2:  cd "SafeCity AI/server"   then  node server.js     (http://localhost:5000)
+
+KEY: put a NEW OpenAI key in  SafeCity AI/server/.env  as:
+  OPENAI_API_KEY=your-new-key
+(delete the old key at platform.openai.com/api-keys first)
+
+Line-by-line explanation of every feature: EXPLAINED.md
